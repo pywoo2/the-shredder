@@ -2,6 +2,14 @@
 
 A Claude Code slash command that helps you burn tokens faster.
 
+## Why does this exist?
+
+Some companies have started tracking AI token usage as a developer performance metric. The idea is that more tokens consumed = more AI-assisted work = higher productivity. If you're not hitting your token quota, you're "not leveraging AI effectively."
+
+This is, of course, complete bullshit. Token usage has zero correlation with productivity. A senior engineer who writes 10 precise lines doesn't need 23 agents to tell them what they already know. But if your company is going to measure you by a number on a dashboard, The Shredder is here to help you hit that number so you can get back to doing actual work.
+
+Think of it as malicious compliance as a service.
+
 ## What is this?
 
 `/deep-research` is an advanced multi-agent deliberation system that answers any question with **extreme rigor** by routing it through:
