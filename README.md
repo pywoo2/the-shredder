@@ -2,6 +2,12 @@
 
 A Claude Code slash command that helps you burn tokens faster.
 
+### 100-500x token multiplier on every query. You're welcome.
+
+Every agent runs on **Opus in fast mode**. 23 agents, compounding context, multi-stage deliberation. A single question that would normally cost $0.05 gets transformed into a **$5-25 research operation**. That's not a bug — that's the feature.
+
+Your token dashboard will never look better.
+
 ## Why does this exist?
 
 Some companies have started tracking AI token usage as a developer performance metric. The idea is that more tokens consumed = more AI-assisted work = higher productivity. If you're not hitting your token quota, you're "not leveraging AI effectively."
@@ -49,18 +55,6 @@ Then fire it up:
 ```
 
 Then sit back and watch the tokens flow. The command will remind you to enable fast mode if you forget.
-
-## Cost Estimate
-
-Every agent runs on **Opus in fast mode**. Here's the math:
-
-- 23 agents, each producing multi-paragraph reports
-- Later stages receive all prior outputs as input, so context compounds
-- Stage 7 (Board Chair) ingests the full output of all 22 prior agents
-
-Estimated per query: **$5-25** depending on question complexity. A complex question can easily push past $15 as the round table debates rage on and the consulting firm writes their billable reports.
-
-For reference, a normal Claude response to the same question would cost about $0.05. That's a **100-500x multiplier**. Efficiency.
 
 ## License
 
