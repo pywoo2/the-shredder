@@ -36,15 +36,31 @@ cp .claude/commands/deep-research.md ~/.claude/commands/deep-research.md
 
 ## Usage
 
+First, enable fast mode for maximum throughput:
+
+```
+/fast
+```
+
+Then fire it up:
+
 ```
 /deep-research What is the best programming language?
 ```
 
-Then sit back and watch the tokens flow.
+Then sit back and watch the tokens flow. The command will remind you to enable fast mode if you forget.
 
 ## Cost Estimate
 
-Roughly $2-8 per query depending on complexity. A small price to pay for rigor.
+Every agent runs on **Opus in fast mode**. Here's the math:
+
+- 23 agents, each producing multi-paragraph reports
+- Later stages receive all prior outputs as input, so context compounds
+- Stage 7 (Board Chair) ingests the full output of all 22 prior agents
+
+Estimated per query: **$5-25** depending on question complexity. A complex question can easily push past $15 as the round table debates rage on and the consulting firm writes their billable reports.
+
+For reference, a normal Claude response to the same question would cost about $0.05. That's a **100-500x multiplier**. Efficiency.
 
 ## License
 
