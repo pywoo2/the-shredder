@@ -2,7 +2,7 @@
 
 A Claude Code slash command that helps you burn tokens faster.
 
-### 100-500x token multiplier on every query. You're welcome.
+### We've struck gold: 100-500x token multiplier on every query.
 
 Every agent runs on **Opus in fast mode**. 23 agents, compounding context, multi-stage deliberation. A single question that would normally cost $0.05 gets transformed into a **$5-25 research operation**. That's not a bug — that's the feature.
 
